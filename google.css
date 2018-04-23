@@ -1,0 +1,54 @@
+a {
+	text-decoration: none;
+	color: black;
+	font-family: arial, sans-serif;
+	margin: 10px;
+}
+
+#top {
+	height: 80px;
+}
+
+#top *{
+	display: inline-block;
+	font-size: 13px;
+	margin: 10px;
+}
+
+#left {
+	margin: 20px 0 0 15px;
+
+}
+
+#right {
+	float: right;
+}
+
+#right *{
+	
+}
+
+.square {
+	height: 20px;
+	padding: 5px 0px;
+	background-color: rgba(80, 80, 80, .2);
+}
+
+.circle {
+	background-color: rgba(80, 80, 80, .2);
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	margin-bottom: 10px;
+	padding: 5px;
+	text-align: center;
+	line-height: 30px ;
+}
+
+#body {
+	height: 400px;
+}
+
+#gif {
+	background: url("C:\Users\computer\Documents\the-odin-project\google\gif.gif");
+}
