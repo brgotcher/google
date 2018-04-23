@@ -6,7 +6,9 @@ a {
 }
 
 #top {
-	height: 80px;
+    height: 80px;
+    max-height: 80px;
+    min-width: 465px;
 }
 
 #top *{
@@ -16,7 +18,7 @@ a {
 }
 
 #left {
-	margin: 20px 0 0 15px;
+	margin: 22px 0 0 15px;
 
 }
 
@@ -50,5 +52,28 @@ a {
 }
 
 #gif {
-	background: url("C:\Users\computer\Documents\the-odin-project\google\gif.gif");
+	background: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png) center no-repeat;
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+#search {
+    position: fixed;
+    top: 280px;
+    width: 100%;
+    height: 100px;
+}
+
+form {
+	width: 400px;
+	height: 50px;
+	margin: auto;
+}
+
+input#textbox {
+    width: 300px;
+    height: 25px;
+    margin: 10px 44px;
 }
